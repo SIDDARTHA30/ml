@@ -72,26 +72,23 @@ ml/
 pip install -r requirement.txt
 2️⃣ Run the Streamlit App
 streamlit run app.py
+
 3️⃣ Open in Browser
 http://localhost:8501
+
 🎯 Workflow of the App
 Step 1 — Data Ingestion
 Download Iris dataset OR upload CSV
 
 Step 2 — Exploratory Data Analysis
 Dataset preview
-
 Missing values
-
 Correlation heatmap
 
 Step 3 — Data Cleaning
 Choose missing value strategy:
-
 Mean
-
 Median
-
 Drop rows
 
 Step 4 — Save Clean Dataset
@@ -99,16 +96,12 @@ Dataset saved with timestamp
 
 Step 5 — Train SVM Model
 Select:
-
 Kernel
-
 Regularization (C)
-
 Gamma
 
 Step 6 — Model Evaluation
 Accuracy Score
-
 Confusion Matrix
 
 📊 Dataset Used
