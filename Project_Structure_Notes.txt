@@ -1,0 +1,20 @@
+Project Structure 
+
+In our project we first install all required libraries using requirements.txt.
+This file contains the list of Python libraries needed to run the project.
+We run the command pip install -r requirements.txt to install them.
+
+After installing libraries, we run app.py, which is the main file of the project.
+app.py is the heart of the project because it performs the full process like reading raw data, cleaning the data, training the model and showing the result.
+
+In the project we have a data folder which contains two sub-folders.
+
+The data/raw folder stores the original dataset collected from the source.
+We never change this data.
+
+The data/clean folder stores the cleaned and processed data after preprocessing.
+This cleaned data is used for model training.
+
+We also have a frontend, which is the user interface.
+Frontend allows the user to enter input and see the prediction result.
+It connects the user with the backend (app.py).
